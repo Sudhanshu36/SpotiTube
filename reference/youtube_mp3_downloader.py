@@ -21,6 +21,6 @@ if __name__ == "__main__":
 		'outtmpl': r['title']+".mp3",
 		'noplaylist': True,
 	}
-
+	#suckmydick
 	with youtube_dl.YoutubeDL(options) as ydl:
 		ydl.download([link])
